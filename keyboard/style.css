@@ -1,0 +1,34 @@
+*{margin:0;padding:0}
+a{text-decoration: none;}
+main{
+    text-align: center;
+    padding-top:100px;
+}
+
+#mainX{
+    display:inline-block;
+}
+
+kbd{border:1px solid red;width:4em;height:4em;display:inline-block;
+    text-transform: uppercase;position: relative;}
+
+
+kbd > button{
+    position:absolute;
+    right:0;
+    bottom:0;
+    display:none
+}
+kbd:hover > button{
+    display:inline-block;
+}
+#mainX{
+    display:inline-block;
+    text-align: center;
+}
+#mainX > div:nth-child(2){
+    margin-left:2em;
+}
+#mainX > div:nth-child(3){
+    margin-left:4em;
+}
